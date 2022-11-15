@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glossário</title>
+  </head>
+    <body bgcolor="yellow"   >
+        <h1 style="color:rgb(1, 99, 1)">Estrutura <abbr title="Hypertext Markup Language" >HTML</abbr></h1> 
+
+        <h2 style="color:rgb(201, 159, 8)">tags</h2>
+
+        <dl>
+            <dt>
+                <pre>
+                    <code>
+        &lta href="..." &gt
+                    </code>
+                </pre>
+            </dt>
+            <dd>
+                Faz o ancoramento de um link, endereço de email ou telefone.
+            </dd>
+            <dt>
+                <pre>
+                    <code>
+        &lth1&gt
+                    </code>
+                </pre>
+            </dt>
+            <dd>
+                Texto principal, título.
+            </dd>
+            <dt>
+                <pre>
+                    <code>
+        &lth2&gt
+                    </code>
+                </pre>
+            </dt>
+            <dd>
+                Texto secundário, subtítulo.
+            </dd>
+            <dt>
+                <pre>
+                    <code>
+        &lth3&gt
+                    </code>
+                </pre>
+            </dt>
+            <dd>
+                Texto terciário.
+            </dd>
+            <dt>
+                <pre>
+                    <code>
+        &ltimg src="..."&gt
+                    </code>
+                </pre>
+            </dt>
+            <dd>
+                Insere uma imagem.
+            </dd>
+            <dt>
+                <pre>
+                    <code>
+        &ltul&gt
+                    </code>
+                </pre>
+            </dt>
+            <dd>
+                Cria uma lista sem ordem estabelecida.Os itens de uma lista sem ordenação.
+            </dd>            
+            <dt>
+                <pre>
+                    <code>
+        &ltli&gt
+                    </code>
+                </pre>
+            </dt>
+            <dd>
+                Os itens de uma lista sem ordenação.
+            </dd>             
+        </dl>
+
+
+
+        <h2 style="color:rgb(201, 159, 8)">Atributos das tags</h2>
+        <dl>
+            <dt>
+                <pre>
+                    <code>
+        class="..."
+                    </code>
+                </pre>
+            </dt>
+            <dd> Atribui uma classe ao elemento, podendo uma classe ser atribuída para mais de um elemento </dd>
+            <dt>
+                <pre>
+                    <code>
+        style="..."
+                    </code>
+                </pre>
+            </dt>
+            <dd> Permite atribuir elementos CSS dentro da tag como, por exemplo, cores </dd>
+            <dt>
+                <pre>
+                    <code>
+        id="..."
+                    </code>
+                </pre>
+            </dt>
+            <dd> Atribui um id para um elemento que deve ser unico e exclusivo para este elemento</dd>
+            <dt>
+                <pre>
+                    <code>
+        lang="..."
+                    </code>
+                </pre>
+            </dt>
+            <dd> Atribui um idioma principal a um determinado elemento </dd>
+                <pre>    
+                    <code>
+        alt="..."
+                    </code>
+                </pre>
+            </dt>
+            <dd> Define um texto alternativo. </dd>  
+            <pre>    
+                <code>
+        hidden="..."
+                    </code>
+                </pre>
+            </dt>
+            <dd> Oculta o elemento </dd> 
+            <pre>    
+                <code>
+        align="..."
+                    </code>
+                </pre>
+            </dt>
+            <dd> Define o pradão de alinhamento do elemento </dd>   
+        </dl>   
+    </body>
+</html>
