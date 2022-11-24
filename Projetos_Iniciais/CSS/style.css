@@ -32,9 +32,18 @@ h1{
 }
 
 h2{
-    color: rgb(7, 159, 68) ;
-    font-family: 'EB Garamond', serif;
-    font-size: 6em;
+    color: #20cb4a ;
+    left: 50pt;
+    position: absolute;
+    font-size: 40pt;
+    text-shadow: 0 0 5px #20cb4a,
+                    0 0 25px #20cb4a,
+                    0 0 50px #20cb4a,
+                    0 0 75px  #20cb4a,
+                    0 0 100px #20cb4a;
+
+                    font-family: 'EB Garamond', serif;
+                    font-size: 6em;
 }
 
 .botao{
